@@ -63,6 +63,10 @@ public class User {
         this.password = password;
     }
     
-    
+    public void checkage(int age){
+        if age < 0 {
+           return "Edad incorrecta"
+        }
+    }
     
 }
