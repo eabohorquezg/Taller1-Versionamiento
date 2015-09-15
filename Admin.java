@@ -17,7 +17,7 @@ public class Admin extends User {
         this.level = level;
         this.rating = rating;
     }
-
+    // Get levepl of admin user.
     public int getLevel() {
         return level;
     }
